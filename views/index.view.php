@@ -15,7 +15,7 @@
                     imagem
                 </div>
                 <div>
-                    <a href="/livro.php? id=<?= $livro['id'] ?>" class="font-semibold hover:underline">
+                    <a href="/livro? id=<?= $livro['id'] ?>" class="font-semibold hover:underline">
                         <?= $livro['titulo'] ?>
                     </a>
                     <div class="text-xs italic">
