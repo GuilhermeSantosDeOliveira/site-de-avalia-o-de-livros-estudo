@@ -1,4 +1,3 @@
-<?= $livro['titulo'] ?>
 <div class="  p-2 rounded border-2 border-stone-800 mt-3">
     <div class=" flex">
         <div class="w-1/3">
