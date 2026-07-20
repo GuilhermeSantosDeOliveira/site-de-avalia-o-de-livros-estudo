@@ -1,5 +1,10 @@
 <?php
-$livros =
+
+$dp = new Pdo('sqlite:database.sqlite');
+$query = $dp->query("select * from livros");
+$livros = $query->fetchAll();
+
+/*$livros =
     [
         [
             'id' => 1,
@@ -37,5 +42,5 @@ $livros =
             'autor' => 'George Orwell',
             'descrição' => 'Uma fábula política que utiliza animais para criticar regimes autoritários.'
         ],
-    ]
-    ?>
+    ]*/
+?>

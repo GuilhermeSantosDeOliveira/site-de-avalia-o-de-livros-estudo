@@ -22,3 +22,4 @@ function abort($code)
     view($code);
     die();
 }
+
